@@ -1,0 +1,17 @@
+{
+  "name": "grupo-reis-dragonzord-teste-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DragonZord Teste 1: instância prática com 24 agentes e frameworks de IA open-source.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "validate": "node --check server.js && node --check assets/app.js && node -e \"JSON.parse(require('fs').readFileSync('projects.json','utf8')); console.log('JSON válido')\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
