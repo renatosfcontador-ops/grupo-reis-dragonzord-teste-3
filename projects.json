@@ -48,8 +48,9 @@
       "status": "pendente",
       "tags": [
         "crm",
-        "vocero",
-        "open-source"
+        "whatsapp",
+        "docker",
+        "local"
       ],
       "license": "MIT",
       "compliance": "green",
@@ -57,10 +58,10 @@
       "frontend": {
         "hasUI": true,
         "kind": "web",
-        "label": "Interface web",
+        "label": "Interface web (serviço local ativo)",
         "localUrl": "http://localhost:3000",
-        "runCommand": "npm install && npm run dev",
-        "note": "Interface disponível após executar o projeto localmente."
+        "runCommand": "cd \"C:\\Users\\reisc\\Documents\\Default Project\\vocero-crm\"; docker compose up -d",
+        "note": "Serviço local ativo via Docker Compose (app + Postgres + Nea). Primeiro acesso: crie sua organização em http://localhost:3000/register."
       }
     },
     {
