@@ -46,10 +46,22 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["crm", "vocero", "open-source"],
+      "tags": [
+        "crm",
+        "vocero",
+        "open-source"
+      ],
       "license": "MIT",
       "compliance": "green",
-      "complianceNote": "Licença permissiva para uso comercial."
+      "complianceNote": "Licença permissiva para uso comercial.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "npm install && npm run dev",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 2,
@@ -63,10 +75,22 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["whatsapp", "omnichannel", "chatwoot"],
+      "tags": [
+        "whatsapp",
+        "omnichannel",
+        "chatwoot"
+      ],
       "license": "MIT",
       "compliance": "green",
-      "complianceNote": "Licença MIT para uso comercial."
+      "complianceNote": "Licença MIT para uso comercial.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 3,
@@ -80,10 +104,22 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["crm", "whatsapp", "ia"],
+      "tags": [
+        "crm",
+        "whatsapp",
+        "ia"
+      ],
       "license": "MIT",
       "compliance": "green",
-      "complianceNote": "Verificar licença específica."
+      "complianceNote": "Verificar licença específica.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "npm install && npm run dev",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 4,
@@ -97,10 +133,22 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["whatsapp", "crm", "kanban"],
+      "tags": [
+        "whatsapp",
+        "crm",
+        "kanban"
+      ],
       "license": "Verificar",
       "compliance": "yellow",
-      "complianceNote": "Verificar licença e termos de uso."
+      "complianceNote": "Verificar licença e termos de uso.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "npm install && npm run dev",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 5,
@@ -114,10 +162,22 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["crm", "evolution", "api"],
+      "tags": [
+        "crm",
+        "evolution",
+        "api"
+      ],
       "license": "Verificar",
       "compliance": "yellow",
-      "complianceNote": "Verificar licença da comunidade."
+      "complianceNote": "Verificar licença da comunidade.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 6,
@@ -131,10 +191,22 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["chatbot", "visual", "automation"],
+      "tags": [
+        "chatbot",
+        "visual",
+        "automation"
+      ],
       "license": "AGPL-3.0",
       "compliance": "yellow",
-      "complianceNote": "Copyleft - verificar termos para SaaS."
+      "complianceNote": "Copyleft - verificar termos para SaaS.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 7,
@@ -148,10 +220,22 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["chatbot", "ia", "nlu"],
+      "tags": [
+        "chatbot",
+        "ia",
+        "nlu"
+      ],
       "license": "MIT",
       "compliance": "green",
-      "complianceNote": "Licença MIT para uso comercial."
+      "complianceNote": "Licença MIT para uso comercial.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "npx botpress init",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 8,
@@ -165,27 +249,51 @@
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["whatsapp", "api", "business"],
+      "tags": [
+        "whatsapp",
+        "api",
+        "business"
+      ],
       "license": "MIT",
       "compliance": "green",
-      "complianceNote": "Verificar termos do WhatsApp Business API."
+      "complianceNote": "Verificar termos do WhatsApp Business API.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:3000",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     },
     {
       "id": 9,
-      "name": "Chatwoot WhatsApp",
+      "name": "Evolution API",
       "category": "whatsapp",
-      "description": "Integração nativa WhatsApp Business API com Chatwoot para atendimento automatizado.",
-      "repoUrl": "https://github.com/chatwoot/chatwoot",
+      "description": "API de integração WhatsApp (Baileys/Cloud API) para conectar canais aos CRMs.",
+      "repoUrl": "https://github.com/EvolutionAPI/evolution-api",
       "demoUrl": null,
-      "videoUrl": "https://www.youtube.com/results?search_query=chatwoot+whatsapp+business+api",
+      "videoUrl": "https://www.youtube.com/results?search_query=evolution+api+whatsapp",
       "kaggleUrl": null,
       "embedUrl": null,
       "embeddable": false,
       "status": "pendente",
-      "tags": ["whatsapp", "api", "business"],
+      "tags": [
+        "whatsapp",
+        "api",
+        "evolution"
+      ],
       "license": "MIT",
       "compliance": "green",
-      "complianceNote": "Verificar termos do WhatsApp Business API."
+      "complianceNote": "Verificar termos do WhatsApp Business API.",
+      "frontend": {
+        "hasUI": true,
+        "kind": "web",
+        "label": "Interface web",
+        "localUrl": "http://localhost:8080",
+        "runCommand": "docker compose up",
+        "note": "Interface disponível após executar o projeto localmente."
+      }
     }
   ]
 }
